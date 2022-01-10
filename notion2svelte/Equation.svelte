@@ -32,9 +32,7 @@
 
 <style>
 	div {
-		border-radius: 3px;
 		margin: 1rem auto;
-		width: 80%;
 		background: #f9f9f9;
 		border: 0.25rem solid hsl(0, 90%, 88%);
 		padding: 1rem;
