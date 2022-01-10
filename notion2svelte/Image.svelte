@@ -4,14 +4,14 @@
 
 <figure>
   <img width="100%" height="100%" src={url} />
-  <figcaption><slot style="margin-top: 0.75rem;" /></figcaption>
+  <figcaption><slot /></figcaption>
 </figure>
 
 <style>
   figure {
     color: gray;
     background-color: whitesmoke;
-    padding: 1rem 1rem 3.5rem 1rem;
+    padding: 1rem;
     border: thin silver solid;
     border-radius: 0.5rem;
     margin: 0 auto 1rem auto;
