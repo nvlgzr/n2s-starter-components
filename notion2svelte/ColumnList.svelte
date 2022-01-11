@@ -6,16 +6,16 @@
   }
 </script>
 
-<div style="grid-template: 1fr /{repeat(` ${100 / cols}%`, cols)}">
+<div style="grid-template: 1fr /{repeat(`1fr `, cols)}">
   <slot />
 </div>
 
 <style>
   div {
-    /* border: 1px solid black; */
     display: grid;
-    /* grid-template: 1fr / 1fr 1fr; */
-    /* padding: 1rem; */
     gap: 1rem;
+    /* DUPLICATE ↓ See Magic.svelte */
+    width: calc(min(90vw, 42rem));
+    padding: 1rem 0;
   }
 </style>
