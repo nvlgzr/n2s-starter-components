@@ -8,7 +8,6 @@
   span {
     font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono",
       Courier, monospace;
-    line-height: normal;
     background: hsla(0, 0%, 100%, 0.45);
     color: #eb5757;
     border-radius: 3px;
@@ -23,6 +22,6 @@
     border-radius: 3px;
     font-size: 85%;
     white-space: pre-wrap;
-    padding: 0.4rem 0.5rem 0.3rem 0.5rem;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
   }
 </style>
