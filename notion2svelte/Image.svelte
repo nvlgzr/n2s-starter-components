@@ -1,5 +1,5 @@
 <script>
-  export let url = "Missing URL for image";
+  export let url = 'Missing URL for image';
 </script>
 
 <figure>

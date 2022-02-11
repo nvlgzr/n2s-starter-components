@@ -2,9 +2,7 @@
   export let checked = false;
 </script>
 
-<span on:click={() => (checked = !checked)}
-  ><input type="checkbox" {checked} /><slot /></span
->
+<span on:click={() => (checked = !checked)}><input type="checkbox" {checked} /><slot /></span>
 
 <style>
   input {

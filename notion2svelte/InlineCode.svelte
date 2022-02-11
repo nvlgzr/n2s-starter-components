@@ -1,13 +1,12 @@
 <script>
-  export let code = "";
+  export let code = '';
 </script>
 
 <span><code>{@html code}</code></span>
 
 <style>
   span {
-    font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono",
-      Courier, monospace;
+    font-family: 'SFMono-Regular', Menlo, Consolas, 'PT Mono', 'Liberation Mono', Courier, monospace;
     background: hsla(0, 0%, 100%, 0.45);
     color: #eb5757;
     border-radius: 3px;

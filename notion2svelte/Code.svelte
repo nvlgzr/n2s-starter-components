@@ -1,7 +1,6 @@
 <script>
-  export let code = "";
-  export let language = "";
-  export let caption = "";
+  export let code = '';
+  export let language = '';
 </script>
 
 <pre>
@@ -9,16 +8,15 @@
   <span>{language}</span>
 </pre>
 <div>
-  {#if caption}
-    <div>{@html caption}</div>
+  {#if $$slots.default}
+    <div><slot /></div>
   {/if}
 </div>
 
 <style>
   code,
   span {
-    font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono",
-      Courier, monospace;
+    font-family: 'SFMono-Regular', Menlo, Consolas, 'PT Mono', 'Liberation Mono', Courier, monospace;
   }
 
   pre {

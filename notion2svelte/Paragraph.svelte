@@ -1,13 +1,19 @@
-<div>
+<script>
+  export let blockProps = {};
+</script>
+
+<p>
   {#if $$slots.default}
-    <slot />
+    <div title={JSON.stringify(blockProps, null, 2)}><slot /></div>
   {:else}
-    &nbsp;
+    &nbsp; <!-- Ensures empty blocks get rendered -->
   {/if}
-</div>
+</p>
 
 <style>
-  div {
-    padding-bottom: 0.5rem;
+  p {
+    padding: 0 0 0.5rem 0;
+    margin: 0;
+    position: relative;
   }
 </style>
